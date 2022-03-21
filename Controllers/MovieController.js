@@ -21,9 +21,9 @@ var MovieController = ()=>{};
       MovieController.save = (req, res)=>{
         let data={
           movied_id:req.body.movied_id,
-         title:req.body.title,
-         release_yerar:req.body.release_yerar,
-         rating :req.body.rating,
+          tittle:req.body.tittle,
+          release_year:req.body.release_year,
+          reating :req.body.reating,
          image:req.body.image
         }
         MovieModel.save(data, (docs)=>{

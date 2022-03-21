@@ -29,9 +29,9 @@ const MovieModel = ()=>{};
                         .findOneAndUpdate(
                               {movie_id:data.movie_id}, 
                               {
-                                    title:data.title,
-                                    release_yerar:data.release_yerar,
-                                    rating : data.rating,
+                                    tittle:data.tittle,
+                                    release_year:data.release_year,
+                                    reating: data.reating,
                                     image:data.image
                               }, 
                               (err)=>{
