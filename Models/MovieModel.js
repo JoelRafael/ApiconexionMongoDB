@@ -14,7 +14,7 @@ const MovieModel = ()=>{};
       MovieModel.getOne = (MovieId, cb) => {}
       MovieModel.save = (data, cb)=>{
             conn
-            .count({movie_id:data.movie_id})
+            .count({movied_id:data.movied_id})
             .exec((err, count)=>{
                   if(err) throw err
                   console.log(`Numero de docs: ${count}`)
